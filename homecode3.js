@@ -30,6 +30,36 @@ else if (a===" "){
 else {
     console.log(`${a} is a special character.`);
 }
+// or 
+var alpha="B";
+if ( alpha>='a' && alpha<='z')
+{
+ if ((alpha==='a')||(alpha==='e')||(alpha==='i')||(alpha==='o')||(alpha==='u')){
+console.log(`${alpha} is a lowercase vowel`);
+   }
+   else {
+       console.log(`${alpha} is a consonant.`);
+   }
+}
+else if (alpha>='A' && alpha<='Z')
+{
+
+ if ((alpha==='A')||(alpha==='E')||(alpha==='I')||(alpha==='O')||(alpha==='U')) 
+ {  console.log(`${alpha} is an uppecase vowel.`);}
+    else {
+console.log(`${alpha} is an uppercase consonant.`)
+    }
+}
+else if(alpha==='number'){
+    console.log(`${alpha} is a number.`)
+}
+else if (alpha===" ")
+{
+    console.log(`${alpha} is a space character.`)
+}
+else{
+    console.log(`${alpha} is a special character.`)
+}
 //No. of days in a month
 var month="december";
 var mo=month.toLowerCase();
