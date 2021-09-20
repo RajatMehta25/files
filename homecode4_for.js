@@ -54,9 +54,9 @@ else{
 }
 
 // A number is prime or not
-var number5=7;
+var number5=145666225567;
 var flag=0;
-for (let i=2;i<=number5/2;++i){
+for (let i=2;i<=number**0.5;++i){
     if(number5%i==0){
         flag=1;
         break;
